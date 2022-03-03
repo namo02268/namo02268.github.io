@@ -1,8 +1,17 @@
 # About ME
 
-## 所属
-- 茨城大学大学院
+## 中川 基 / Moto Nakagawa
 
-## プログラミング
+## Projects
 
-hogehoge
+```@My Projects
+    Pages = [
+          "index.md"
+          "chapter/01.md"
+          "chapter/02.md"
+          "chapter/03.md"
+          "chapter/04.md"
+          "chapter/05.md"
+    ]
+    Depth = 2
+```

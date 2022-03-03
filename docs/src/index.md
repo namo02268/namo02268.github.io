@@ -1,10 +1,8 @@
-# About ME
-
 ## 中川 基 / Moto Nakagawa
 
 ## Projects
 
-```@My Projects
+```@contents
     Pages = [
           "index.md"
           "chapter/01.md"

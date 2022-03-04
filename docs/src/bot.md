@@ -13,7 +13,7 @@ GAS のトリガーと Twitter API を使って、毎日以下のツイートを
 
 ---
 ## 作品リツイートの自動化
-ハッシュタグ 「#深夜のモデリング60分一本勝負」 に投稿された作品を30分置きに自動リツイートしています。
+[#深夜のモデリング60分一本勝負](https://twitter.com/search?q=＃深夜のモデリング60分一本勝負) に投稿された作品を30分置きに自動リツイートしています。処理の流れは以下のようになっています。
 - IFTTT でツイートの検索
 - Googleスプレッドシートに該当ツイートを追加
 - 追加されたツイートを Twitter API を使ってリツイート
@@ -26,7 +26,7 @@ GAS のトリガーと Twitter API を使って、毎日以下のツイートを
 ## 過去のお題
 過去に出題したお題を簡単に確認できるように、毎日のお題を GAS を使ってスプレッドシートに追加しています。リツイート数をカウントすることで、投稿作品数の統計も取っています。
 ```@raw html
-<img src="../images/Spreadsheet1.png" width="200">
+<img src="../images/Spreadsheet1.png" width="300">
 ```
 [スプレッドシートへのリンク](https://docs.google.com/spreadsheets/d/1NRrCvgxyiuwi9mW1L9cQJYGB6EVApk6SDPn9noAILa4/edit#gid=0)
 

@@ -14,6 +14,7 @@
     Pages = [
         "GameEngine.md",
         "bot.md",
+        "RoboCup.md",
         "MachineLearning.md",
         "WebSite.md",
         "3DArt.md",

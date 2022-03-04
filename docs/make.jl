@@ -8,6 +8,6 @@ makedocs(;
         "ロボカップジュニア"=>"RoboCup.md",
         "機械学習"=>"MachineLearning.md",
         "Webサイト"=>"WebSite.md",
-        "3D作品"=>"3DArt.md",
+        "Art Gallery"=>"ArtGallery.md",
     ]
 )

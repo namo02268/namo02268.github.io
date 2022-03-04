@@ -17,7 +17,7 @@
         "RoboCup.md",
         "MachineLearning.md",
         "WebSite.md",
-        "3DArt.md",
+        "ArtGallery.md",
     ]
     Depth = 2
 ```

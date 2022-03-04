@@ -13,7 +13,7 @@ GAS のトリガーと Twitter API を使って以下の
 ## 作品のリツイート
 ハッシュタグ「#深夜のモデリング60分一本勝負」に投稿された作品を
 ```@raw html
-<img src="../images/IFTTT.png" width="500">
+<img src="../../images/IFTTT.png" width="500">
 ```
 
 ## スプレッドシートの利用

@@ -1,9 +1,9 @@
 # About Me
 
 ## 中川 基 / Moto Nakagawa
+&#x1f393; 茨城大学大学院 理工学研究科 機械システム専攻
 
-## Links
-&#x1f517; Github
+&#x1f517; [Github](https://github.com/namo02268)
 
 ## Projects
 ```@contents

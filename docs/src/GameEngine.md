@@ -1,7 +1,2 @@
 # ゲームエンジン開発
-
-## テストです
-
-- リスト1
-- リスト2
-- リスト3
+[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system) を利用した自作のゲームエンジン開発に挑戦しています。

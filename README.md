@@ -1,2 +1,2 @@
-# namo02268.github.io
+# Webpage
 https://namo02268.github.io/build/

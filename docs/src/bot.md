@@ -24,11 +24,20 @@ GAS のトリガーと Twitter API を使って、毎日以下のツイートを
 
 ---
 ## 過去のお題
-過去に出題したお題を簡単に確認できるように、毎日のお題を GAS を使ってスプレッドシートに追加しています。リツイート数をカウントすることで、投稿作品数の統計も取っています。
+過去に出題したお題を簡単に確認できるように、毎日のお題を GAS を使ってスプレッドシートに追加しています。また、リツイート数をカウントすることで、投稿作品数の統計も取っています。
 ```@raw html
 <img src="../images/Spreadsheet1.png" width="300">
 ```
-[スプレッドシートへのリンク](https://docs.google.com/spreadsheets/d/1NRrCvgxyiuwi9mW1L9cQJYGB6EVApk6SDPn9noAILa4/edit#gid=0)
+[過去のお題用スプレッドシートへのリンク](https://docs.google.com/spreadsheets/d/1NRrCvgxyiuwi9mW1L9cQJYGB6EVApk6SDPn9noAILa4/edit#gid=0)
 
 ---
 ## お題の生成
+お題は募集形式を取っています。お題用スプレッドシートを作成し、全体公開にすることで、誰でも自由に入力出来るようになっています。お題は入力された中からランダムに選ばれるため、お題がツイートされるまでその日のお題は分かりません。
+
+[お題用スプレッドシートへのリンク](https://docs.google.com/spreadsheets/d/1YiEfxdjw3Kj6yzLWEtlVRTvsdTKVvsy8lti_yVuqigQ/edit#gid=768838469)
+
+---
+## 追記
+Twitterにおける自動化に関するルールは以下のページに書いてあります。気になる方は読んでみて下さい。
+
+[ツイッターヘルプセンター 自動化ルール](https://help.twitter.com/ja/rules-and-policies/twitter-automation)

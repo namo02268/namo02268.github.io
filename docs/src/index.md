@@ -1,6 +1,6 @@
 # About Me
 
-# 中川 基 / Moto Nakagawa
+## 中川 基 / Moto Nakagawa
 機械工学を専攻しています。最近はコンピュータグラフィックスの勉強にハマっています。
 ```@raw html
 <p>&#x1f393; 茨城大学大学院 理工学研究科 機械システム専攻</p>
@@ -13,6 +13,7 @@
 ```@contents
     Pages = [
         "GameEngine.md",
+        "PBR.md",
         "bot.md",
         "RoboCup.md",
         "MachineLearning.md",

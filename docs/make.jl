@@ -4,6 +4,7 @@ makedocs(;
     pages = [
         "About Me"=>"index.md",
         "Game Engine"=>"GameEngine.md",
+        "Physical Based Rendering"=>"PBR.md",
         "bot開発"=>"bot.md",
         "ロボカップジュニア"=>"RoboCup.md",
         "機械学習"=>"MachineLearning.md",

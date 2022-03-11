@@ -7,3 +7,6 @@
   - [GLM](https://github.com/g-truc/glm)
 - [Dear ImGui](https://github.com/ocornut/imgui)
 - [Assimp](https://github.com/assimp/assimp)
+
+Youtubeデモ動画
+[![](https://img.youtube.com/vi/KNrScQqfw7Q/0.jpg)](https://www.youtube.com/watch?v=KNrScQqfw7Q)

@@ -1,5 +1,9 @@
 # ゲームエンジン開発：エンジンベース編
 ## ECSについて
+[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system)は、ゲーム開発においてよく使用されるアーキテクチャパターンの一つです。
+```@raw html
+<img src="../images/ECS1.png" width="600">
+```
 
 ## Entityの作成とComponentの追加
 作成したEntityをキーにしてSceneから任意のComponentを追加できます。
@@ -12,7 +16,7 @@ scene.addComponent<MaterialComponent>(entity);
 ```
 
 ## Systemの追加
-SceneにSystemを追加します。追加された
+Sceneに任意のSysemを追加します。
 ```C++
 // レンダラーをSceneに追加
 auto renderer = std::make_unique<Renderer>();
@@ -50,17 +54,17 @@ class Renderer : public System {
 //-------------------レンダラークラス-------------------//
 class Renderer : public System {
   // 初期化処理
-  void Renderer::init() {
+  void init() {
     for (auto& e : m_entityArray) {
     }
   }
   // 更新処理
-  void Renderer::update(float dt) {
+  void update(float dt) {
     for (auto& e : m_entityArray) {
     }
   }
   // 描画処理
-  void Renderer::draw() {
+  void draw() {
     for (auto& e : m_entityArray) {
     }
   }
@@ -68,13 +72,14 @@ class Renderer : public System {
 ```
 
 ## Event Handler
-Event Handlerは各System同士がやり取りするための手段です。例えば、
+Event Handlerは各System同士がやり取りするための手段です。送信側のクラス(ここではCollisionSystem)は、任意のタイミングでEvent Handlderに対し、イベントを送信します。一方、受信側のクラス(ここではRenderer)では、初期化時に呼び出したいメンバ関数をEventHandlerに登録しておきます。これによって、EventHandlerが送信側のイベントを受け取ったタイミングで、受信側のメンバ関数を適切に呼び出してくれます。
+
 ```C++
 //-------------------コリジョンクラス-------------------//
 class CollisionSystem : public System {
   void update(float dt) {
     if(Collision) {
-      // イベントを発行
+      // イベントを送信
       CollisionEvent event;
       m_eventHandler->publish(&event);
     }
@@ -88,7 +93,7 @@ class Renderer : public System {
     m_eventHandler->subscribe(this, &Renderer::onCollisionEvent);
   }
 
-  // イベント受け取り時に呼び出したい関数
+  // イベント受信時に呼び出したい関数
   void onCollisionEvent(CollisionEvent* collision) {
   }
 };

@@ -1,6 +1,16 @@
 # ゲームエンジン開発：エンジンベース編
 ## ECSについて
-ゲームエンジンのベース部分には[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system)を採用しています。ECSとは、ゲーム開発においてよく使用されるアーキテクチャパターンの一つです。
+ゲームエンジンのベース部分には[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system)を採用しています。ECSとは、ゲーム開発においてよく使用されるアーキテクチャパターンの一つで、Entity・Component・Systemの3要素から構成されます。
+
+- Entity：プレイヤーや敵などのゲームオブジェクトを表現します。通常ユニークなIDのみで構成されます。
+
+- Component：Entityの挙動や特性を表す生のデータです。
+
+- System：各コンポーネントに対して実際の処理を施します。
+
+例を挙げると、プレイヤー（Entity）が、HP（Component）を保持していて、敵から攻撃を受けたのでダメージシステム（System）がプレイヤー（Entity）のHP（Component）を減らすといった具合です。
+
+ここからは実際に私がC++で作成したECSの説明になります。
 
 ## Entityの作成とComponentの追加
 作成したEntityをキーにしてSceneから任意のComponentを追加できます。

@@ -1,5 +1,5 @@
 # ゲームエンジン：概要
-[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system) ライクな自作のゲームエンジン開発に挑戦しています。
+自作のゲームエンジン開発に挑戦しています。
 
 ## 開発環境
 使用言語やライブラリは以下の通りです。

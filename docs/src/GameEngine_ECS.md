@@ -2,7 +2,7 @@
 ## ECSについて
 [ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system)は、ゲーム開発においてよく使用されるアーキテクチャパターンの一つです。
 ```@raw html
-<img src="../images/ECS1.png" width="600">
+<img src="../images/ECS.png" width="600">
 ```
 
 ## Entityの作成とComponentの追加

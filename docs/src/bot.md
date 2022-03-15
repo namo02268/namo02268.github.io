@@ -26,7 +26,7 @@ GAS のトリガーと Twitter API を使って、毎日以下のツイートを
 ## 過去のお題
 過去に出題したお題を簡単に確認できるように、毎日のお題を GAS を使ってスプレッドシートに追加しています。また、リツイート数をカウントすることで、投稿作品数の統計も取っています。
 ```@raw html
-<img src="../images/Spreadsheet1.png" width="300">
+<img src="../images/Spreadsheet.png" width="300">
 ```
 [過去のお題用スプレッドシートへのリンク](https://docs.google.com/spreadsheets/d/1NRrCvgxyiuwi9mW1L9cQJYGB6EVApk6SDPn9noAILa4/edit#gid=0)
 

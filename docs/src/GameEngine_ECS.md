@@ -1,4 +1,4 @@
-# ゲームエンジン開発
+# ゲームエンジン開発：エンジンベース編
 [ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system) ライクな自作のゲームエンジン開発に挑戦しています。
 
 [ソースコードへのリンク](https://github.com/namo02268/ECS)

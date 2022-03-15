@@ -12,8 +12,8 @@
 ## My Projects
 ```@contents
     Pages = [
-        "GameEngine.md",
-        "PBR.md",
+        "GameEngine_ECS.md",
+        "GameEngine_PBR.md",
         "bot.md",
         "RoboCup.md",
         "MachineLearning.md",

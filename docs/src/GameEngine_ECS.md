@@ -1,17 +1,5 @@
 # ゲームエンジン開発：エンジンベース編
-[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system) ライクな自作のゲームエンジン開発に挑戦しています。
-
-[ソースコードへのリンク](https://github.com/namo02268/ECS)
-
-## 開発環境
-使用言語やライブラリは以下の通りです。
-- C++ 14
-- [OpenGL](https://www.opengl.org//)
-  - [GLFW](https://www.glfw.org)
-  - [GLAD](https://github.com/Dav1dde/glad)
-  - [GLM](https://github.com/g-truc/glm)
-- [Dear ImGui](https://github.com/ocornut/imgui)
-- [Assimp](https://github.com/assimp/assimp)
+## ECSについて
 
 ## Entityの作成とComponentの追加
 作成したEntityをキーにしてSceneから任意のComponentを追加できます。
@@ -24,7 +12,7 @@ scene.addComponent<MaterialComponent>(entity);
 ```
 
 ## Systemの追加
-
+SceneにSystemを追加します。追加された
 ```C++
 // レンダラーをSceneに追加
 auto renderer = std::make_unique<Renderer>();

@@ -1,9 +1,6 @@
 # ゲームエンジン開発：エンジンベース編
 ## ECSについて
-[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system)は、ゲーム開発においてよく使用されるアーキテクチャパターンの一つです。
-```@raw html
-<img src="../images/ECS.png" width="600">
-```
+ゲームエンジンのベース部分には[ECS (Entity Component System)](https://en.wikipedia.org/wiki/Entity_component_system)を採用しています。ECSとは、ゲーム開発においてよく使用されるアーキテクチャパターンの一つです。
 
 ## Entityの作成とComponentの追加
 作成したEntityをキーにしてSceneから任意のComponentを追加できます。

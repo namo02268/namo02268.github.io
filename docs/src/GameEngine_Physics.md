@@ -15,9 +15,9 @@
 ```
 
 ## Youtubeデモ動画
-大量の球体を出現させた場合のデモ動画です。Core i5-6300U + Intel HD Graphics 520のノートPCで録画しながら動かしていますが、今のところ処理は問題なさそうです。
+大量の球体を出現させるデモ動画です。Core i5-6300U + Intel HD Graphics 520のノートPCで録画しながら動かしていますが、今のところ処理速度は問題なさそうです。
 
 ```@raw html
 <iframe style="width:560px;height:315px" src="https://www.youtube.com/embed/IUYqTApizuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
-次は、衝突判定として[GJKアルゴリズム](https://en.wikipedia.org/wiki/Gilbert–Johnson–Keerthi_distance_algorithm)も実装しようと考えています。
+次は、凸形状の立体の衝突判定を行うために、[GJKアルゴリズム](https://en.wikipedia.org/wiki/Gilbert–Johnson–Keerthi_distance_algorithm)を実装しようと考えています。

@@ -1,4 +1,4 @@
-# Twitter Botの開発
+# Twitter Bot
 [GAS (Google Apps Script)](https://developers.google.com/apps-script)、[Twitter API](https://developer.twitter.com/en/products/twitter-api)、[IFTTT](https://ifttt.com/explore) を組み合わせて、3Dモデリングのお題出題botを作りました。2019年8月19日から運営を始め、現在1700人ほどフォロワーがいます。後述するお題生成以外は全て自動化しています。
 
 ```@raw html

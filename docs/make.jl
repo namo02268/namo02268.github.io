@@ -9,8 +9,8 @@ makedocs(;
         "ゲームエンジン開発：物理エンジン編"=>"GameEngine_Physics.md",
         "ロボカップジュニア"=>"RoboCup.md",
         "画像認識"=>"MachineLearning.md",
-        "Twitter Botの開発"=>"bot.md",
-        "Webサイト"=>"WebSite.md",
+        "Twitter Bot"=>"bot.md",
+        "Webサイト作成"=>"WebSite.md",
         "Art Gallery"=>"ArtGallery.md",
     ]
 )

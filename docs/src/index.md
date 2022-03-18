@@ -5,9 +5,8 @@
 
 - 所属：茨城大学大学院 理工学研究科 機械システム専攻
 - 研究：視覚障害者のための​リアルタイム触地図と​触力覚デバイスの開発
-- リンク：[GitHub](https://github.com/namo02268) [Youtube]
+- リンク：[GitHub](https://github.com/namo02268)&nbsp;&nbsp;[Youtube](https://www.youtube.com/channel/UC0Z8vkgDEXd3tQuS9wkKQBw)
 
-[![website](./images/youtube-light.svg)](https://youtube.com/codestackr#gh-light-mode-only)
 
 <br />
 
@@ -26,3 +25,5 @@
     ]
     Depth = 2
 ```
+
+[youtube]: https://www.youtube.com/channel/UC0Z8vkgDEXd3tQuS9wkKQBw

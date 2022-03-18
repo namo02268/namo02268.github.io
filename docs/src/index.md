@@ -8,8 +8,6 @@
 - リンク：[GitHub](https://github.com/namo02268) [Youtube](https://www.youtube.com/channel/UC0Z8vkgDEXd3tQuS9wkKQBw)
 
 
-<br />
-
 ## My Projects
 ```@contents
     Pages = [

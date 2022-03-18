@@ -14,7 +14,6 @@
 <img src="../images/Physics.png" width="500">
 ```
 
-<br />
 
 ## Youtubeデモ動画
 大量の球体を出現させるデモ動画です。Core i5-6300U + Intel HD Graphics 520のノートPCで録画しながら動かしていますが、今のところ処理速度は問題なさそうです。

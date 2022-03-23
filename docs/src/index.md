@@ -8,9 +8,9 @@
 ### 研究
 - 視覚障害者のための​リアルタイム触地図と​触力覚デバイスの開発
 ### 言語
-- C++ (ゲームエンジン)
+- C/C++ (ゲームエンジン開発、マイコン制御)
 - Python (画像認識/物体検出/その他 算術計算・グラフ作成など)
-- JavaScript (Twitter Bot)
+- JavaScript (Bot開発)
 ### リンク
 - [GitHub](https://github.com/namo02268)
 - [Youtube](https://www.youtube.com/channel/UC0Z8vkgDEXd3tQuS9wkKQBw)

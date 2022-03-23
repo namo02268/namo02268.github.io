@@ -46,7 +46,7 @@ class Renderer : public System {
   Renderer() {
     // Transform Componentを設定
     auto family = getComponentTypeID<TransformComponent>();
-    m_requiredComponent[family] = true; // 
+    m_requiredComponent[family] = true;
     // Mesh Componentを設定
     family = getComponentTypeID<MeshComponent>();
     m_requiredComponent[family] = true;

@@ -12,9 +12,6 @@
 - C/C++ (ゲームエンジン開発、マイコン制御)
 - Python (画像認識/物体検出/その他 算術計算・グラフ作成など)
 - JavaScript (Bot開発)
-### 使用ソフト
-- Blender (3Dモデリングツール)
-- Unity (ゲームエンジン)
 ### 各種リンク
 - [GitHub](https://github.com/namo02268)
 - [Youtube](https://www.youtube.com/channel/UC0Z8vkgDEXd3tQuS9wkKQBw)

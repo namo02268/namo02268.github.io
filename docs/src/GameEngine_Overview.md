@@ -8,7 +8,7 @@
 ## 開発環境
 使用言語やライブラリは以下の通りです。
 - C++ 14
-- [OpenGL](https://www.opengl.org//)
+- [OpenGL](https://www.opengl.org)
   - [GLFW](https://www.glfw.org)
   - [GLAD](https://github.com/Dav1dde/glad)
   - [GLM](https://github.com/g-truc/glm)
@@ -21,7 +21,7 @@
 - 描画システム
 - 物理エンジン
 
-がそれぞれ完成（？）しています。まだまだ改善の余地はありますが、とりあえず人に見せられる程度には出来た気がします。それぞれのページで解説していますので、ぜひご覧ください。
+がそれぞれ完成（？）しています。まだまだ改善の余地はありますが、とりあえず人に見せられる程度には出来た気がします。各ページに解説がありますので、ぜひご覧ください。
 
 ```@contents
     Pages = [

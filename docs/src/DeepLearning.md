@@ -7,7 +7,9 @@
 ```
 
 ### 検出結果
-
+```@raw html
+<img src="../images/ImageClassification.png" width="500">
+```
 
 ## 物体検出
 Faster R-CNNによる「とまれ標識」の検出器を作ってみました。簡単な1クラス分類です。ライブラリはPyTorchを使用しました。

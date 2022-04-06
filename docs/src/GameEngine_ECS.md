@@ -114,6 +114,8 @@ class Renderer : public System {
 ## 参考文献
 [古典的ゲームループからECSアーキテクチャまで](https://zenn.dev/rita0222/articles/c22a8367e31b4d5f4eeb)
 
+[Cygames Engineers' Blog データ指向設計](https://tech.cygames.co.jp/archives/2843/)
+
 [Nomad Game Engine](https://savas.ca/nomad)
 
 [Effective Event Handling in C++](https://www.gamedev.net/articles/programming/general-and-gameplay-programming/effective-event-handling-in-c-r2459/)
